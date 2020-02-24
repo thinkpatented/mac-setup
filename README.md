@@ -47,11 +47,11 @@ If you have already migrated your SSH key you can feel free to continue, if not 
 
 
 ## 5. SSH keys
-In order to connect to any of our LiquidWeb, Eleven2, or DigitalOcean servers over SSH/SFTP or commit to our Think Patented Github you must first have an SSH Key installed in your **~/.ssh/** directory.
+In order to connect to any of our web servers over SSH/SFTP or commit to our Github you must first have an SSH Key installed in your **~/.ssh/** directory.
 
 To generate a key, paste the following in a terminal session:
 
-	cd ~/.ssh && ssh-keygen -t rsa -b 4096 -C "youremailaddress@thinkpatented.com"
+	cd ~/.ssh && ssh-keygen -t rsa -b 4096 -C "youremailaddress@email.com"
 
 You will be asked to name the key, don't and just hit `enter` to leave as default **id_rsa** this will insure that any provided config files are pointing to the appropriate key. You will also be asked to provide a passphrase for the key, this is optional but recommended for an additional layer of security.
 
