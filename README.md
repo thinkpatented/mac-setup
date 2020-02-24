@@ -38,12 +38,16 @@ Add some useful defaults to your `~/.zshrc`:
 For an even nicer cli experience, you can install [agnoster.zsh-theme](https://github.com/agnoster/agnoster-zsh-theme).
 
 
-## 4. Check Homebrew
-Once YADR has installed, run `brew doctor` to see if there are any issues with Homebrew. If there are, follow the provided instructions to correct them.
+## 4. Install Homebrew
+If you didn't install YADR in Step 3, you will need to install [Homebrew](https://brew.sh/), a package manager for macOS, separately. Homebrew is an easy way to install and manage development packages from one location. It is included in YADR by default. Run the following command to install Homebrew:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ℹ️ **Note:** Can't `chown /usr/local`? [Click here](https://github.com/Homebrew/brew/issues/3228#issuecomment-332679274)
 
-If you have already migrated your SSH key you can feel free to continue, if not let's create one.
+If you have already migrated your SSH key you can feel free to continue to Step 6, if not let's create one.
 
 
 ## 5. SSH keys
