@@ -2,7 +2,7 @@
 
 Follow these instructions for setting up a new Mac for web development purposes.
 
-_Updated 04/09/2019_
+_Updated 05/28/2019_
 
 ## 1. Update macOS
 
